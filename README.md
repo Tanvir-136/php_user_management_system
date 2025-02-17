@@ -34,7 +34,13 @@ A simple and secure PHP-based user management system that allows users to regist
    - Create a MySQL database named `my_database` (or any name you prefer).
    - Import the `users` table schema from the `database.sql` file:
      ```bash
-     mysql -u root -p my_database < database.sql
+      CREATE TABLE users (
+          id INT AUTO_INCREMENT PRIMARY KEY,
+          username VARCHAR(50) UNIQUE NOT NULL,
+          password VARCHAR(255) NOT NULL,
+          email VARCHAR(100) UNIQUE,
+          name VARCHAR(50)
+         );
      ```
 
 3. **Configure the database connection**:
@@ -47,7 +53,7 @@ A simple and secure PHP-based user management system that allows users to regist
      ```
 
 4. **Run the application**:
-   - Start your local web server (e.g., Apache) and navigate to the project directory.
+   - Start your local web server and navigate to the project directory.
    - Access the application in your browser:
      ```
      http://localhost/php-user-management-system
