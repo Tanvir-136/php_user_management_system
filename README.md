@@ -120,7 +120,7 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 
 ## Author
 
-[Your Name](https://github.com/tanvir-136)
+[MD. TANVIR ISLAM](https://github.com/tanvir-136)
 
 
 ### Steps to Create the Repository:
