@@ -15,4 +15,3 @@ try {
     die("Connection failed: " . $e->getMessage());
 }
 ?>
-this is my db.php . fix this
